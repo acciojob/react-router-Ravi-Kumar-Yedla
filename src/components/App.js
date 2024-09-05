@@ -1,7 +1,6 @@
 
 import React from "react";
 import './../styles/App.css';
-// import { BrowserRouter as router,route,Link,Switch } from "react-router-dom";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from "./Home";
 import AboutUs from "./AboutUs";
@@ -22,16 +21,6 @@ const App = () => {
             </ul>
           </nav>
 
-         {/* <Routes>
-
-          <Route path = "/">
-            <Home />
-          </Route>
-          <Route path = "/about">
-            <AboutUs />
-          </Route>
-
-         </Routes> */}
            <main>
           <Routes>
             <Route path="/" element={<Home />} />
